@@ -1,0 +1,27 @@
+{
+  "name": "agentic",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "start": "mastra start",
+    "build": "mastra build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "mastra": "^1.33.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@mastra/core": "^1.75.0",
+    "@mastra/duckdb": "^1.13.0",
+    "@mastra/libsql": "^1.25.1",
+    "@mastra/memory": "^1.36.0",
+    "@mastra/observability": "^1.18.4",
+    "zod": "^4.6.5"
+  }
+}
